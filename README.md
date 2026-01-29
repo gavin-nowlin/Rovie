@@ -1,10 +1,10 @@
-# 🚀 Rovie: Lunar Rover Pathing & Navigation
-### **Autonomous Rover for Clearing Rocks from the Lunar Terrain**  
-[![GitHub repo](https://img.shields.io/badge/GitHub-Rovie-blue?style=flat&logo=github)](https://github.com/irodriguez0482/Rovie)
+# 🚀 Rovie: Lunar Road Construction
+### **Autonomous Rover for Constructing Roads on the Lunar Terrain**  
+[![GitHub repo](https://img.shields.io/badge/GitHub-Rovie-blue?style=flat&logo=github)](https://github.com/gavin-nowlin/Rovie)
 
 ## 📌 Project Overview
-Rovie is a **surface modification rover** designed for **autonomous navigation and rcoc clearing**.  
-This project aims to create a **fully autonomous system** capable of efficiently clearing a **3m x 3m** area from intrusive rock.  
+Rovie is a **surface construction rover** designed for **autonomous picking and placing of pavers**.  
+This project aims to create a **semi-autonomous system** capable of efficiently **starting and extending roads**.  
 
 ---
 
@@ -83,7 +83,7 @@ rover_project/
 
 1️⃣ **Clone the Repository**  
 ```bash
-git clone git@github.com:irodriguez0482/Rovie.git
+git clone git@github.com:gavin-nowlin/Rovie.git
 cd Rovie
 ```
 2️⃣ **Install Dependencies**  
@@ -143,7 +143,7 @@ Want to help? Here’s how:
 ---
 
 ## 📅 Project Tasks & Issues
-🚀 **Want to see what’s next?** Check out our [GitHub Issues](https://github.com/irodriguez0482/Rovie/issues) for ongoing tasks.
+🚀 **Want to see what’s next?** Check out our [GitHub Issues](https://github.com/gavin-nowlin/Rovie/issues) for ongoing tasks.
 
 ---
 
@@ -153,6 +153,19 @@ This project is licensed under the
 ---
 
 ## 👥 Team Members
+| Name | Role |
+|------|------|
+| **Trent Anderson** | Software Developer |
+| **Bo Brynjulfson** | Computer Engineer |
+| **Connor Kuziemko** | Software Developer |
+| **James Mather** | Lead Mechanical Engineer |
+| **Blake Miller** | Engineering Physics |
+| **Gavin Nowlin** | Lead Software Developer |
+| **Hayden Rutland** | Mechanical Engineer |
+| **Colin Sadowitz** | Team Lead & Software Developer |
+| **Eddrick Tirado** | Electrical Lead |
+
+### 👥 Original Team Members
 | Name | Role |
 |------|------|
 | **Eva Rodriguez** | Integration Specialist |
@@ -169,9 +182,5 @@ This project is licensed under the
 ---
 
 ## 📌 Next Steps
-- [ ] **Finish motor control integration**
-- [ ] **Refine pathing algorithm**
-- [ ] **Test force sensor integration**
-- [ ] **Improve WiFi/GPS stability**
 
 ---
