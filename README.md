@@ -14,8 +14,8 @@ rover_project/
 ├── main.py                       # Main entry point (handles mode switching)
 ├── config/
 │   ├── constants.py              # All project-wide constants (distances, thresholds)
-│   └── pins.py                   # GPIO pin mappings for Raspberry Pi
-│   └── test_scenarios.py         # Testing Scenarios for when mocking hardware testing
+│   ├── pins.py                   # GPIO pin mappings for Raspberry Pi
+│   ├── test_scenarios.py         # Testing Scenarios for when mocking hardware testing
 │   └── README.md
 ├── core/                         # Core logic for behavior and modes
 │   ├── autonomous.py             # 3x3 path clearing logic
@@ -28,31 +28,31 @@ rover_project/
 │   ├── arm.py                    # Vibration + up/down arm control
 │   ├── force_button.py           # Read obstacle sensor
 │   ├── estop.py                  # Emergency stop button logic
-│   └── README.md
+│   ├── README.md
 │   └── mock/                     # Mock versions of above (for testing without hardware)
 │       ├── gps.py
 │       ├── motors.py
-│       └── arm.py
-│       └── estop.py
+│       ├── arm.py
+│       ├── estop.py
 │       └── force_button.py
 ├── utils/
 │   ├── logger.py                 # Logging GPS data, sensor events, errors
 │   ├── coordinate_utils.py       # Haversine + coordinate math
-│   └── timer.py                  # For timeouts, delays, safety checks
-│   └── map_tracker.py                  # For creating pathing map
+│   ├── timer.py                  # For timeouts, delays, safety checks
+│   └── map_tracker.py            # For creating pathing map
 ├── logs/                         # All generated logs saved here
 │   ├── gps/
 │   ├── sensors/
 │   ├── flags/
-│   └── errors/
+│   ├── errors/
 │   └── README.md
 ├── arduino/                      # C++ Arduino code
 │   ├── MotorCommunication.ino
 │   └── README.md                 # Flashing instructions, serial protocol docs
-├── testing/                        # Unit and integration tests
+├── testing/                      # Unit and integration tests
 │   ├── test_gps.py               # Runs GPS code in isolation
 │   ├── test_force_button.py
-│   ├── test_pathing_straight.py # Can run on real hardware or mock
+│   ├── test_pathing_straight.py  # Can run on real hardware or mock
 │   └── ...
 └── README.md                     # Project overview and setup instructions
 
@@ -165,7 +165,7 @@ This project is licensed under the
 | **Colin Sadowitz** | Team Lead & Software Developer |
 | **Eddrick Tirado** | Electrical Lead |
 
-### 👥 Original Team Members
+## 👥 Original Team Members
 | Name | Role |
 |------|------|
 | **Eva Rodriguez** | Integration Specialist |
